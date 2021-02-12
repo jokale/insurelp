@@ -13,11 +13,12 @@ class App extends React.Component {
         <p>BLOG</p>
         <p>ACCOUNT</p>
         <button>VIEW PLANS</button>
-      </div>
-          <div id="text-1">
+      </div><br></br>
+          <div id="text-1"><br></br>
+            <hr id="solid"/>
             <h1>Humanizing <br></br>your insurance.</h1>
               <p>Get your life isnurance coverage easier and faster. We blend our expertise <br></br>and technology to help you find the plan right for you. Enusre you <br></br> and your loved ones are protected.</p>
-              <button>View Plans</button>
+              <button>VIEW PLANS</button>
           </div>     
           <div id= "Midpage">
 
@@ -31,7 +32,7 @@ class App extends React.Component {
           </div>
                <div id="third">
                  <h1>Find out more <br></br>about how we work</h1>
-                 <button>How we work</button>
+                 <button>HOW WE WORK</button>
                </div>
                <div id="footer">
 

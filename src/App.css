@@ -37,14 +37,32 @@
   }
 }
 
-
-
+/* sections  */
+div#navbar{
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
 div#text-1{
   background-color: hsl(256, 26%, 20%);
   color: white;
+  height: 550px;
 }
 
 div#third{
   background-color: hsl(256, 26%, 20%);
   color: white;
+}
+
+
+/* text */
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'DM Serif Display', serif;
+
+}
+
+p{
+  font-family: 'Karla', sans-serif;
 }
