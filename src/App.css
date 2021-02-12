@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+div#text-1{
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+}
+
+div#third{
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+}
