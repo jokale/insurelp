@@ -38,23 +38,252 @@
 }
 
 /* sections  */
+
+/* NAVBAR */
+
 div#navbar{
-  flex-direction: row;
-  flex-wrap: nowrap;
+  width: 100%;
+  display: flex;
   justify-content: flex-end;
-  align-items: flex-end;
+  height: 0px;
 }
+
+#navbarp1{
+  position: absolute; top: 10px; right: 400px;
+
+  color: hsl(273, 4%, 51%);
+}
+#navbarp1:hover{
+  color: hsl(270, 9%, 17%);
+}
+
+#navbarp2{
+  position: absolute; top: 10px; right: 300px;
+  color: hsl(273, 4%, 51%);
+}
+#navbarp2:hover{
+  color: hsl(270, 9%, 17%);
+}
+
+#navbarp3{
+  position: absolute; top: 10px; right: 170px;
+  color: hsl(273, 4%, 51%);
+}
+#navbarp3:hover{
+  color: hsl(270, 9%, 17%);
+}
+
+#navbarbtn{
+  position: absolute; top: 20px; right: 10px;
+  border: hsl(270, 9%, 17%);
+  border-width: 1px;
+  border-style: solid;
+  background-color: transparent;
+  font-family: 'Karla', sans-serif;
+  width: 100px;
+  height: 30px;
+
+}
+#navbarbtn:hover{
+
+  border: transparent;
+  border-width: 1px;
+  border-style: solid;
+  background-color: hsl(270, 9%, 17%);
+  color: white;
+
+}
+
+h2{
+  position: absolute; left: 0px;
+  font-family: 'Karla', sans-serif;
+  left: 150px;
+}
+
+
+/* SECTION ONE  */
+
 div#text-1{
   background-color: hsl(256, 26%, 20%);
   color: white;
   height: 550px;
+  align-items: left;
+  position: relative; top: 50px;
 }
+
+hr{
+  width: 70px;
+  position: absolute;
+  left: 150px;
+  top: 50px;
+}
+
+
+button#textonebtn{
+  position: absolute;
+  left: 150px;
+  border: white;
+  border-width: 1px;
+  background-color: transparent;
+  color: white;
+  top: 300px;
+  border-style: solid;
+  font-family: 'Karla', sans-serif;
+  width: 120px;
+  height: 30px;
+
+}
+
+button#textonebtn:hover{
+  background-color: white;
+  color: hsl(270, 9%, 17%);
+}
+#textoneh1{
+  display: flex;
+justify-content: left;
+position: absolute; left: 150px; top: 50px;
+font-size: 40px;
+text-align: left;
+}
+#textonep{
+  display: flex;
+justify-content: left;
+position: absolute; left: 150px; top: 200px;
+text-align: left;
+font-size: small;
+}
+
+img#family{
+  position: absolute;
+  top: 50px;
+  height: 600px;
+  max-width: 100%;
+}
+
+/* SECTION TWO MIDPAGE */
+
+div#Midpage{
+  background-color: white;
+  position: absolute; top: 850px; left: 150px;
+  text-align: center;
+}
+h1#midpageh1{
+  text-align: left;
+  font-size: 40px;
+}
+
+hr#mpsolid{
+  width: 90px;
+  position: absolute;
+  left: 10px;
+  top: -30px;
+  color: #282c34;
+
+}
+
+/* SECTION THREE */
+
+div#row{
+  flex-direction: row;
+  text-align: left;
+}
+
+h4#title1{
+  position: absolute; left: 0px; top: 290px;
+  width: 400px;
+  font-size: 20px;
+}
+p#p1{
+  position: absolute; left: 0px; top: 340px;
+  text-align: left;
+  width: 400px;
+  color: hsl(273, 4%, 51%);
+
+}
+h4#title2{
+  position: absolute; left: 400px; top: 290px;
+  width: 400px;
+  font-size: 20px;
+
+}
+p#p2{
+  position: absolute; left: 400px; top: 340px;
+  text-align: left;
+  width: 400px;
+  color: hsl(273, 4%, 51%);
+
+}
+
+h4#title3{
+  position: absolute; left: 800px; top: 285px;
+  width: 400px;
+  font-size: 20px;
+}
+p#p3{
+  position: absolute; left: 800px; top: 335px;
+  text-align: left;
+  width: 400px;
+  color: hsl(273, 4%, 51%);
+
+}
+
+
+
+/* SECTION four */
 
 div#third{
   background-color: hsl(256, 26%, 20%);
   color: white;
+  position: absolute; bottom: -850px; left: 160px;
+  width: 1140px;
+  text-align: left;
+  height: 200px;
+}
+#work{
+  position: absolute; left: 100px; top: 25px;
+  color:white;
+  font-size: 40px;
 }
 
+#workbtn{
+  position: absolute; top: 110px; right: 90px;
+  border: hsl(270, 9%, 17%);
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  background-color: transparent;
+  font-family: 'Karla', sans-serif;
+  width: 150px;
+  height: 40px;
+  color: white; 
+   z-index: 1;
+
+}
+
+#workbtn:hover{
+  background-color: white;
+  color: hsl(270, 9%, 17%);
+}
+
+
+#workptn{
+  position: absolute; right: 0px;
+  z-index: 0;
+  width:600px;
+  height:200px;
+}
+
+/* FOOTER */
+
+div#footer{
+background-color: hsl(0, 1%, 66%);
+height: auto;
+position: absolute;
+bottom: -1100px;
+width: 1200px;
+
+
+}
 
 /* text */
 
@@ -66,3 +295,37 @@ h1,h2,h3,h4,h5,h6 {
 p{
   font-family: 'Karla', sans-serif;
 }
+
+
+
+
+/* images */
+
+#introleft{
+  position: absolute; top: 300px; left: 0px;
+}
+
+#introright{
+  position: absolute; top: 0px; right: 0px;
+}
+
+#snappy{
+  position: absolute; top: 190px; left: 0px;
+
+}
+
+#people{
+  position: absolute; top: 190px; left: 400px;
+
+}
+
+#affordable{
+  position: absolute; top: 190px; left: 800px;
+
+}
+
+#twitter{
+  width: 500px;
+  height: 500px;
+}
+
