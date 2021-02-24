@@ -69,15 +69,49 @@ class App extends React.Component {
                </div>
                
        <img id="introleft"src={introleft} className="App-introleft" alt="introleft" />
-       <img id="twitter"src={twitter} className="App-twitter" alt="twitter" />
+     
+
+  <div id="footer">
+    <h1 id="footerh1"> Insure</h1>
+    <hr id="footerhr"/>  
+    <img id="twitter"src={twitter} className="App-twitter" alt="twitter" />
        <img id="insta"src={insta} className="App-insta" alt="insta" />
        <img id="facebook"src={facebook} className="App-facebook" alt="facebook" />
        <img id="pinterest"src={pinterest} className="App-pinterest" alt="pinterest" />
 
+      <div id="row1">
+      <p>OUR COMPANY</p><br></br>
+      <p>HOW WE WORK</p>
+      <p>WHY INSURE</p>
+      <p>VIEW PLANS</p>
+      <p>REVIEWS</p>
+      </div>
 
-  <div id="footer">
-                <h1>HELLO I AM A FOOTER</h1>
-               </div>
+
+      <div id="row2">
+      <p>HELP ME</p><br></br>
+      <p>FAQ</p>
+      <p>TERMS OF USE</p>
+      <p>PRIVACY POLICY</p>
+      <p>COOKIES</p>
+      </div>
+
+
+      <div id="row3">
+      <p>CONTACT</p><br></br>
+      <p>SALES</p>
+      <p>SUPPORT</p>
+      <p>LIVE CHAT</p>
+      </div>
+
+
+      <div id="row4">
+      <p>OTHERS</p><br></br>
+      <p>CAREERS</p>
+      <p>PRESS</p>
+      <p>LICENSES</p>
+      </div>
+   </div>
 
     </div>
   
