@@ -72,44 +72,44 @@ class App extends React.Component {
      
 
   <div id="footer">
-    <h1 id="footerh1"> Insure</h1>
-    <hr id="footerhr"/>  
-    <img id="twitter"src={twitter} className="App-twitter" alt="twitter" />
-       <img id="insta"src={insta} className="App-insta" alt="insta" />
-       <img id="facebook"src={facebook} className="App-facebook" alt="facebook" />
-       <img id="pinterest"src={pinterest} className="App-pinterest" alt="pinterest" />
+        <h1 id="footerh1"> Insure</h1>
+        <hr id="footerhr"/>  
+        <img id="twitter"src={twitter}  alt="twitter" />
+       <img id="insta"src={insta}  alt="insta" />
+       <img id="facebook"src={facebook}  alt="facebook" />
+       <img id="pinterest"src={pinterest}  alt="pinterest" />
 
       <div id="row1">
-      <p>OUR COMPANY</p><br></br>
-      <p>HOW WE WORK</p>
-      <p>WHY INSURE</p>
-      <p>VIEW PLANS</p>
-      <p>REVIEWS</p>
+      <p id="pfh">OUR COMPANY</p><br></br>
+      <p id="pf">HOW WE WORK</p>
+      <p id="pf">WHY INSURE</p>
+      <p id="pf">VIEW PLANS</p>
+      <p id="pf">REVIEWS</p>
       </div>
 
 
       <div id="row2">
-      <p>HELP ME</p><br></br>
-      <p>FAQ</p>
-      <p>TERMS OF USE</p>
-      <p>PRIVACY POLICY</p>
-      <p>COOKIES</p>
+      <p id="pfh">HELP ME</p><br></br>
+      <p id="pf">FAQ</p>
+      <p id="pf">TERMS OF USE</p>
+      <p id="pf">PRIVACY POLICY</p>
+      <p id="pf">COOKIES</p>
       </div>
 
 
       <div id="row3">
-      <p>CONTACT</p><br></br>
-      <p>SALES</p>
-      <p>SUPPORT</p>
-      <p>LIVE CHAT</p>
+      <p id="pfh">CONTACT</p><br></br>
+      <p id="pf">SALES</p>
+      <p id="pf">SUPPORT</p>
+      <p id="pf">LIVE CHAT</p>
       </div>
 
 
       <div id="row4">
-      <p>OTHERS</p><br></br>
-      <p>CAREERS</p>
-      <p>PRESS</p>
-      <p>LICENSES</p>
+      <p id="pfh">OTHERS</p><br></br>
+      <p id="pf">CAREERS</p>
+      <p id="pf">PRESS</p>
+      <p id="pf">LICENSES</p>
       </div>
    </div>
 

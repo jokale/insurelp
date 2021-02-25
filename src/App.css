@@ -201,13 +201,13 @@ p#p1{
 
 }
 h4#title2{
-  position: absolute; left: -60px; top: 170px;
+  position: absolute; left: -60px; top: 60px;
   width: 400px;
   font-size: 20px;
 
 }
 p#p2{
-  position: absolute; left: -60px; top: 230px;
+  position: absolute; left: -60px; top: 110px;
   text-align: left;
   width: 400px;
   color: hsl(273, 4%, 51%);
@@ -215,7 +215,7 @@ p#p2{
 }
 
 h4#title3{
-  position: absolute; left: 800px; top: 285px;
+  position: absolute; left: 800px; top: 290px;
   width: 400px;
   font-size: 20px;
 }
@@ -285,22 +285,38 @@ width: 100%;
 }
 #footerh1{
   position: absolute;
-  left: 150px;
+  left: 160px;
   bottom: 150px;
 }
 #row1{
-  position: absolute; bottom: 0px;left: 150px;
+  position: absolute; bottom: -150px;left: 150px;
 }
 #row2{
-  position: absolute; bottom: 0px;left: 450px;
+  position: absolute; bottom: -150px;left: 450px;
 }
 #row3{
-  position: absolute; bottom: 40px;left: 950px;
+  position: absolute; bottom: -115px;left: 750px;
 }
 #row4{
-  position: absolute; bottom: 40px;left: 1150px;
+  position: absolute; bottom: -115px;left: 1050px;
+}
+hr#footerhr{
+  position: absolute; top: -140px; left: 160px;
+  width: 79%;
+  color: #282c34; 
 }
 
+#pfh{
+  color: hsl(273, 4%, 51%);
+  font-weight: 400;
+}
+
+#pf{
+  color:hsl(270, 9%, 17%);
+}
+#pf:hover{
+  text-decoration: underline;
+}
 /* text */
 
 h1,h2,h3,h4,h5,h6 {
@@ -336,12 +352,33 @@ p{
 }
 
 #affordable{
-  position: absolute; top: 90px; left: 400px;
+  position: absolute; top: -40px; left: 350px;
 
 }
 
-/* #twitter{
-  width: 500px;
-  height: 500px;
-} */
+/* LOGOS */
+
+#twitter{
+  position: absolute;
+  left: 950px;
+  bottom: 180px;
+}
+
+#insta{
+  position: absolute;
+  left: 1000px;
+  bottom: 180px;
+}
+
+#facebook{  
+  position: absolute;
+  left: 850px;
+  bottom: 180px;
+}
+
+#pinterest{
+  position: absolute;
+  left: 900px;
+  bottom: 180px;
+}
 
